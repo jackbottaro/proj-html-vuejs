@@ -5,6 +5,7 @@
     <Features />
     <Youtube />
     <Playlist />
+    <Mailing />
     <Main />
     <Footer />
 
@@ -19,6 +20,8 @@ import Main from "./components/Main.vue";
 import Footer from "./components/Footer.vue";
 import Features from "./components/Features.vue";
 import Youtube from "./components/Youtube.vue";
+import Mailing from "./components/Mailing.vue";
+
 
 
 
@@ -34,6 +37,7 @@ export default {
     Spotlight,
     Features,
     Youtube,
+    Mailing,
   },
 };
 </script>

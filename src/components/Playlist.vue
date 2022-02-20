@@ -6,7 +6,8 @@
          <h4>Featured playlist</h4>
        </div>
        <div class="col-6">
-         <p>View all videos</p>
+         <button type="button" class="btn btn-light videos">View all videos</button>
+         <p id=""></p>
        </div>
        <div class="col-4">
          <div class="card">
@@ -58,6 +59,7 @@ export default {
   height: 500px;
 
 padding: 80px 0px;
+margin-bottom: 100px;
 }
 
 
@@ -80,17 +82,24 @@ padding: 80px 0px;
 
 .title{
   font-weight: 500;
-  font-size: 20px;
+  font-size: 23px;
   margin-bottom: 0;
 }
 
 .subtitle{
   color: #4154ff;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 17px;
   
 
 
 }
 
+h4{
+  font-size: 27px;
+}
+
+.videos{
+  text-align: right;
+}
 </style>

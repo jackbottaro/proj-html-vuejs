@@ -9,7 +9,10 @@
         <span>Tune up your workouts</span>
       <h4>The best health & fitness advice online</h4>
       <p>Arcu eu facilisi ut quisque placerat nunc habitant. Magna semper mauris, venenatis, leo integer sit pellentesque.</p>
-      <button>yotube</button>
+      <a href="#">
+        <i class="fab fa-youtube"></i> 
+        Visit my YouTube channel
+      </a>
       </div>
     </div>
   </div>
@@ -57,18 +60,33 @@ span{
 }
 
 h4{
-  font-size: 54px;
-    line-height: 1.2;
+  font-size: 62px;
+    line-height: 74px;
   margin-bottom: 30px;
   margin-top: 30px;
+  color: #060607;
 
 
 }
 
 p{
-  font-size: 20px;
+  font-size: 23px;
   margin-bottom: 30px;
-  color: #333333;
+  color: #7e7887;
 
 }
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+button.btn.cancel::before {
+   font: var(--fa-font-solid);
+   font-weight: 900;
+   font-family: Font Awesome 6 Free;
+    content: "\f167";
+}
+
+
 </style>

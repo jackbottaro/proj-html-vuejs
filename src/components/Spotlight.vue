@@ -43,16 +43,18 @@ export default {
 }
 
 h2{
-  font-size: 65px;
+  font-size: 56px;
 }
 
 p{
-  font-size: 23px;
-  color: #98939f;
+  font-size: 25px;
+  color: #ffffff;
+  opacity: 0.8;
 }
 
 #subtitle{
   color: #ff414b;
   font-weight: 600;
+  font-size: 23px;
 }
 </style>
