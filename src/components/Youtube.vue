@@ -1,5 +1,5 @@
 <template>
-<div class="youtube">
+<div class="youtube container-fluid">
   <div class="row">
     <div class="col-6">
       <div class="card"></div>
@@ -32,18 +32,18 @@ export default {
 <style scoped lang="scss">
 .youtube{
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 .card{
-    height: 700px;
+    height: 780px;
     background-image: linear-gradient(16deg, rgb(0 0 0 / 76%), rgba(0, 0, 0, 0)), url(https://avada.theme-fusion.com/fitness/wp-content/uploads/sites/130/2019/11/video1@2x.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0px 4px 40px 0px;
     position: absolute;
-    width: 800px;
+    width: 850px;
     top: -69px;
     border: 0;
     left: 0;
@@ -57,6 +57,7 @@ export default {
 span{
   font-size: 28px;
   color: #4154ff;
+  font-weight: 600;
 }
 
 h4{
@@ -71,7 +72,7 @@ h4{
 
 p{
   font-size: 23px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   color: #7e7887;
 
 }
@@ -88,5 +89,18 @@ button.btn.cancel::before {
     content: "\f167";
 }
 
+a{
+  background-color: #f5000c;
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  
 
+}
+
+i{
+  margin-right: 10px;
+}
 </style>

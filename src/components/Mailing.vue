@@ -52,7 +52,7 @@ h2{
 
 p{
   font-size: 23px;
-  color: #ffffff;
+  color: #98939f;
   opacity: 0.8;
 }
 
