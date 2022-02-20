@@ -7,6 +7,8 @@
     <Playlist />
     <Mailing />
     <Plans />
+    <Articles />
+    <CTA />
     <Main />
     <Footer />
 
@@ -23,6 +25,10 @@ import Features from "./components/Features.vue";
 import Youtube from "./components/Youtube.vue";
 import Mailing from "./components/Mailing.vue";
 import Plans from "./components/Plans.vue";
+import Articles from "./components/Articles.vue";
+import CTA from "./components/CTA.vue";
+
+
 
 
 
@@ -42,6 +48,8 @@ export default {
     Youtube,
     Mailing,
     Plans,
+    Articles,
+    CTA,
   },
 };
 </script>

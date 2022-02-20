@@ -107,8 +107,5 @@ i{
   margin-bottom: 50px;
 
 }
-.fa-angle-right{
-  font-size: 14px;
-  margin-left: 10px;
-}
+
 </style>
