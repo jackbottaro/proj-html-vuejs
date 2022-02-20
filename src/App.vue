@@ -6,6 +6,7 @@
     <Youtube />
     <Playlist />
     <Mailing />
+    <Plans />
     <Main />
     <Footer />
 
@@ -21,6 +22,8 @@ import Footer from "./components/Footer.vue";
 import Features from "./components/Features.vue";
 import Youtube from "./components/Youtube.vue";
 import Mailing from "./components/Mailing.vue";
+import Plans from "./components/Plans.vue";
+
 
 
 
@@ -38,6 +41,7 @@ export default {
     Features,
     Youtube,
     Mailing,
+    Plans,
   },
 };
 </script>
