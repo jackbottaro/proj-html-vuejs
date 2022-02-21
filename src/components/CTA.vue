@@ -1,9 +1,12 @@
 <template>
 <div id="CTA">
-  <h2>“I’ve failed over and over again in my life. And that is why I succeed.”</h2>
+  <div class="container">
+<h2>“I’ve failed over and over again in my life. And that is why I succeed.”</h2>
 
   <p>Arcu auctor gravida nisl, congue sit nisi tincidunt eget proin. In lacinia lacus donec sed massa in ipsum eros, tristique. Gravida suspendisse etiam in iaculis</p>
   <button type="button" class="btn">Buy Avada today <i class="fa-solid fa-angle-right"></i></button>
+  </div>
+  
 </div>
 </template>
 

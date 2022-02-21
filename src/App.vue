@@ -9,6 +9,7 @@
     <Plans />
     <Articles />
     <CTA />
+    <Sponsor />
     <Main />
     <Footer />
 
@@ -27,6 +28,8 @@ import Mailing from "./components/Mailing.vue";
 import Plans from "./components/Plans.vue";
 import Articles from "./components/Articles.vue";
 import CTA from "./components/CTA.vue";
+import Sponsor from "./components/Sponsor.vue";
+
 
 
 
@@ -50,6 +53,7 @@ export default {
     Plans,
     Articles,
     CTA,
+    Sponsor,
   },
 };
 </script>
