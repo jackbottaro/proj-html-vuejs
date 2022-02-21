@@ -2,7 +2,9 @@
 <div class="youtube container-fluid">
   <div class="row">
     <div class="col-6">
-      <div class="card"></div>
+      <div class="card">
+            <i class="fa-solid fa-play"></i>
+      </div>
     </div>
     <div class="col-6 text">
       <div class="container">
@@ -100,7 +102,16 @@ a{
 
 }
 
-i{
+.fa-youtube{
   margin-right: 10px;
+}
+
+.fa-play{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 </style>

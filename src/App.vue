@@ -10,6 +10,7 @@
     <Articles />
     <CTA />
     <Sponsor />
+    <Events />
     <Main />
     <Footer />
 
@@ -29,6 +30,8 @@ import Plans from "./components/Plans.vue";
 import Articles from "./components/Articles.vue";
 import CTA from "./components/CTA.vue";
 import Sponsor from "./components/Sponsor.vue";
+import Events from "./components/Events.vue";
+
 
 
 
@@ -54,6 +57,7 @@ export default {
     Articles,
     CTA,
     Sponsor,
+    Events,
   },
 };
 </script>
