@@ -13,6 +13,7 @@
     <Events />
     <Main />
     <Footer />
+    <FixexButtons />
 
   </div>
 </template>
@@ -31,6 +32,8 @@ import Articles from "./components/Articles.vue";
 import CTA from "./components/CTA.vue";
 import Sponsor from "./components/Sponsor.vue";
 import Events from "./components/Events.vue";
+import FixexButtons from "./components/FixexButtons.vue";
+
 
 
 
@@ -58,12 +61,12 @@ export default {
     CTA,
     Sponsor,
     Events,
+    FixexButtons,
   },
 };
 </script>
 
 <style lang="scss">
 @import "/home/giacomo/Documents/Boolean/avada/src/assets/sass/style.scss";
-
 
 </style>

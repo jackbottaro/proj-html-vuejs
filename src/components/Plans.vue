@@ -102,7 +102,7 @@ p{
 
 }
 
-i{
+.fa-dumbbell, .fa-heart-pulse, .fa-person-walking{
   font-size: 50px;
   margin-bottom: 50px;
 

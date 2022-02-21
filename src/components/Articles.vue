@@ -6,13 +6,11 @@
          <h4>Latest articles</h4>
        </div>
        <div class="col-6">
-         <button type="button" class="btn btn-light videos">Read all articles</button>
-         <p id=""></p>
+          <span>Read all articles <i class="fa-solid fa-angle-right"></i></span>
        </div>
        <div class="col-4">
          <div class="card">
-           <img src="https://avada.theme-fusion.com/fitness/wp-content/uploads/sites/130/2019/11/blog4@2x-800x515.jpg" alt="" >
-           <!-- <button>ciao</button> -->
+           <img src="https://avada.theme-fusion.com/fitness/wp-content/uploads/sites/130/2019/11/blog4@2x-800x515.jpg" alt="Thighs & glute workout" >
           <div class="text">
             <p class="title">Thighs & glute workout</p>
             <p class="subtitle">By <a href="#">admin</a> | November 26th, 2019 | <a href="#">Gym</a></p>
@@ -21,8 +19,7 @@
        </div>
        <div class="col-4">
          <div class="card">
-           <img src="https://avada.theme-fusion.com/fitness/wp-content/uploads/sites/130/2019/11/blog1@2x-800x515.jpg" alt="" >
-           <!-- <button>ciao</button> -->
+           <img src="https://avada.theme-fusion.com/fitness/wp-content/uploads/sites/130/2019/11/blog1@2x-800x515.jpg" alt="Ultimate cardio workout" >
           <div class="text">
             <p class="title">Ultimate cardio workout</p>
             <p class="subtitle">By <a href="#">admin</a> | November 26th, 2019 | <a href="#">Gym</a></p>
@@ -32,8 +29,7 @@
        </div>
        <div class="col-4">
          <div class="card">
-           <img src="https://avada.theme-fusion.com/fitness/wp-content/uploads/sites/130/2019/11/blog3@2x-800x515.jpg" alt="" >
-           <!-- <button>ciao</button> -->
+           <img src="https://avada.theme-fusion.com/fitness/wp-content/uploads/sites/130/2019/11/blog3@2x-800x515.jpg" alt="New juices available now" >
           <div class="text">
             <p class="title">New juices available now</p>
             <p class="subtitle">By <a href="#">admin</a> | November 26th, 2019 | <a href="#">Gym</a></p>
@@ -105,5 +101,13 @@ a{
 }
 .videos{
   text-align: right;
+}
+
+span{
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+  font-weight: 600;
+  font-size: 18px;
 }
 </style>

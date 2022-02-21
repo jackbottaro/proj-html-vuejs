@@ -6,8 +6,7 @@
          <h4>Featured playlist</h4>
        </div>
        <div class="col-6">
-         <button type="button" class="btn btn-light videos">View all videos</button>
-         <p id=""></p>
+          <span>Read all articles <i class="fa-solid fa-angle-right"></i></span>
        </div>
        <div class="col-4">
          <div class="card">
@@ -103,7 +102,7 @@ h4{
   text-align: right;
 }
 
-i{
+.fa-play{
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -114,5 +113,13 @@ i{
     height: 60px;
     width: 60px;
     line-height: 60px;
+}
+
+span{
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+  font-weight: 600;
+  font-size: 18px;
 }
 </style>

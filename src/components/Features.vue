@@ -75,6 +75,8 @@ top: -90px;
     background-size: cover;
     border: 0;
    margin: 0 20px;
+  box-shadow: 0 0 25px 5px rgba(0,0,0,.2);
+
 }
 .box-1{
   background-image: linear-gradient(360deg, rgb(0 0 0 / 76%), rgba(0, 0, 0, 0)), url(https://avada.theme-fusion.com/fitness/wp-content/uploads/sites/130/2019/11/service6@2x.jpg);
