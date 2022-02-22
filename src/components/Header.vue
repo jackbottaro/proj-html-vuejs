@@ -60,4 +60,18 @@ i{
   color: $white;
   line-height: 40px;
 }
+
+button{
+  font-weight: 500;
+}
+
+.fa-magnifying-glass{
+  opacity: 0.6;
+}
+
+a{
+  font-size: 18px;
+  font-weight: 500;
+
+}
 </style>
