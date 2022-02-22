@@ -53,7 +53,7 @@ h2 {
 p {
 	font-size: 23px;
 	color: $gray;
-	opacity: 0.8;
+
 }
 
 #subtitle {

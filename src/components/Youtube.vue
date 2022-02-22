@@ -96,6 +96,10 @@ a {
 	font-size: 18px;
 }
 
+a:hover{
+	background-color: $red;
+}
+
 .fa-youtube {
 	margin-right: 10px;
 }

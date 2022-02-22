@@ -12,7 +12,7 @@
     <Sponsor />
     <Events />
     <Main />
-    <Footer />
+    <Footer :footer="foot"/>
     <FixexButtons />
 
   </div>
@@ -73,6 +73,13 @@ export default {
         { link: "#", text: "Blog" },
         { link: "#", text: "Store" },
       ],
+      foot: [
+        { link: "#", text: "The best protein shake" },
+        { link: "#", text: "Ultimate cardio workout" },
+        { link: "#", text: "New juices available now" },
+        { link: "#", text: "Tips to find training partners" },
+        { link: "#", text: "20 best healthy recipes" },
+      ]
     }
   }
 };

@@ -11,7 +11,9 @@
       </div>
       <div class="col-4">
         <div class="card">
+          <div class="gradient">
           <img src="https://avada.theme-fusion.com/fitness/wp-content/uploads/sites/130/2019/11/blog4@2x-800x515.jpg" alt="Thighs & glute workout">
+          </div>
           <div class="text">
             <p class="title">Thighs & glute workout</p>
             <p class="subtitle">By <a href="#">admin</a> | November 26th, 2019 | <a href="#">Gym</a>
@@ -21,7 +23,9 @@
       </div>
       <div class="col-4">
         <div class="card">
+          <div class="gradient">
           <img src="https://avada.theme-fusion.com/fitness/wp-content/uploads/sites/130/2019/11/blog1@2x-800x515.jpg" alt="Ultimate cardio workout">
+          </div>
           <div class="text">
             <p class="title">Ultimate cardio workout</p>
             <p class="subtitle">By <a href="#">admin</a> | November 26th, 2019 | <a href="#">Gym</a>
@@ -31,7 +35,9 @@
       </div>
       <div class="col-4">
         <div class="card">
+          <div class="gradient">
           <img src="https://avada.theme-fusion.com/fitness/wp-content/uploads/sites/130/2019/11/blog3@2x-800x515.jpg" alt="New juices available now">
+          </div>
           <div class="text">
             <p class="title">New juices available now</p>
             <p class="subtitle">By <a href="#">admin</a> | November 26th, 2019 | <a href="#">Gym</a>
@@ -68,8 +74,28 @@ export default {
 	background-color: transparent;
 	border: 0;
 	margin-top: 40px;
+  position: relative;
+}
+.card:hover{
+  .gradient:after{
+    display: inline-block;
+    transition: 0.5s;
+  }
+}
+.gradient:after {
+  content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:93%;
+  display:none;
+  background: linear-gradient(0deg, rgba(58,103,184,0.7) 0%, rgba(0,0,0,0) 100%);
+
 }
 
+.gradient{
+    position:relative;
+  display:inline-block;
+}
 .card img {
 	height: 250px;
 	width: 100%;

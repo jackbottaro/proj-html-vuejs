@@ -70,6 +70,7 @@ export default {
 	text-align: center;
 	margin-top: 40px;
 	position: relative;
+  cursor: pointer;
 }
 
 .card img {
