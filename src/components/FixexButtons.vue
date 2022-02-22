@@ -25,6 +25,7 @@ export default {
 	position: fixed;
 	top: 170px;
 	right: 20px;
+	cursor: pointer;
 }
 
 .button {
