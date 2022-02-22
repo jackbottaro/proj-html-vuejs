@@ -134,6 +134,7 @@ span {
 	align-items: baseline;
 	font-weight: 600;
 	font-size: 18px;
+  cursor: pointer;
 }
 
 

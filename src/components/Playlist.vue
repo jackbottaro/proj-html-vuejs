@@ -6,7 +6,7 @@
          <h4>Featured playlist</h4>
        </div>
        <div class="col-6">
-         <span>Read all articles <i class="fa-solid fa-angle-right"></i>
+         <span>View all videos <i class="fa-solid fa-angle-right"></i>
          </span>
        </div>
        <div class="col-4">
@@ -117,6 +117,7 @@ span {
 	align-items: baseline;
 	font-weight: 600;
 	font-size: 18px;
+  cursor: pointer;
 }
 
 

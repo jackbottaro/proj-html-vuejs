@@ -86,6 +86,7 @@ img{
 }
 .social i{
   margin: 10px;
+  cursor: pointer;
 }
 
 // POST
