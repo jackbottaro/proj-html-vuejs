@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Header :navigations="navs"/>
     <Spotlight />
     <Features />
     <Youtube />
@@ -63,6 +63,18 @@ export default {
     Events,
     FixexButtons,
   },
+  data() {
+    return {
+      navs: [
+        { link: "#", text: "Home" },
+        { link: "#", text: "Service" },
+        { link: "#", text: "About" },
+        { link: "#", text: "Videos" },
+        { link: "#", text: "Blog" },
+        { link: "#", text: "Store" },
+      ],
+    }
+  }
 };
 </script>
 

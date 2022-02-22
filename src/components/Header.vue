@@ -7,61 +7,8 @@
       </a>
       <div class="">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Services </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li>
-                <a class="dropdown-item" href="#">All Services</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Service Single Page</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> About </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li>
-                <a class="dropdown-item" href="#">About Me</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Our Sponsor</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Contact</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Videos </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li>
-                <a class="dropdown-item" href="#">All Playlists</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Playlists Page</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Video Single page</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Store </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li>
-                <a class="dropdown-item" href="#">Simple Product</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">Variable Product</a>
-              </li>
-            </ul>
+          <li class="nav-item" v-for="(navigation, index) in navigations" :key="index">
+            <a class="nav-link" :href="navigation.link">{{ navigation.text }}</a>
           </li>
           <li>
             <button class="btn" type="button">Schedule a workout</button>
@@ -82,9 +29,7 @@
 <script>
 export default {
   name: "Header",
-  props: {
-    msg: String,
-  },
+  props: ["navigations"],
 };
 </script>
 
