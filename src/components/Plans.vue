@@ -46,9 +46,6 @@
 <script>
 export default {
   name: "Plans",
-  props: {
-    msg: String,
-  },
 };
 </script>
 

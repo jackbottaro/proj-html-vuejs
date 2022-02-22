@@ -42,9 +42,6 @@
 <script>
 export default {
   name: "Sponsor",
-  props: {
-    msg: String,
-  },
 };
 </script>
 

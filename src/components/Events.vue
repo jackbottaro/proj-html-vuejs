@@ -13,9 +13,6 @@
 <script>
 export default {
   name: "Events",
-  props: {
-    msg: String,
-  },
 };
 </script>
 

@@ -12,9 +12,6 @@
 <script>
 export default {
   name: "CTA",
-  props: {
-    msg: String,
-  },
 };
 </script>
 

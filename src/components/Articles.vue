@@ -53,9 +53,6 @@
 <script>
 export default {
   name: "Articles",
-  props: {
-    msg: String,
-  },
 };
 </script>
 

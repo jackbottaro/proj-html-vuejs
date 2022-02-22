@@ -47,9 +47,6 @@
 <script>
 export default {
   name: "Spotlight",
-  props: {
-    msg: String,
-  },
 };
 </script>
 

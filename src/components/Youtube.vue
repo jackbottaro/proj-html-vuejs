@@ -22,9 +22,6 @@
 <script>
 export default {
   name: "Youtube",
-  props: {
-    msg: String,
-  },
 };
 </script>
 
